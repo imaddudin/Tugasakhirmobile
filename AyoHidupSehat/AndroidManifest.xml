@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.Sehat.ayohidupsehat"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TipsHidupSehat"
+            android:label="@string/title_activity_tips_hidup_sehat" >
+        </activity>
+        <activity
+            android:name=".ManfaatHidupSehat"
+            android:label="@string/title_activity_manfaat_hidup_sehat" >
+        </activity>
+        <activity
+            android:name=".JenisPenyakit"
+            android:label="@string/title_activity_jenis_penyakit" >
+        </activity>
+        <activity
+            android:name=".Kanker"
+            android:label="@string/title_activity_kanker" >
+        </activity>
+        <activity
+            android:name=".VertigoActivity"
+            android:label="@string/title_activity_vertigo" >
+        </activity>
+        <activity
+            android:name=".DemamActivity"
+            android:label="@string/title_activity_demam" >
+        </activity>
+        <activity
+            android:name=".JenisActivity"
+            android:label="@string/title_activity_jenis" >
+        </activity>
+        <activity
+            android:name=".AsmaActivity"
+            android:label="@string/title_activity_asma" >
+        </activity>
+        <activity
+            android:name=".AmandelActivity"
+            android:label="@string/title_activity_amandel" >
+        </activity>
+        <activity
+            android:name=".AborsiActivity"
+            android:label="@string/title_activity_aborsi" >
+        </activity>
+        <activity
+            android:name=".FluActivity"
+            android:label="@string/title_activity_flu" >
+        </activity>
+        <activity
+            android:name=".MalariaActivity"
+            android:label="@string/title_activity_malaria" >
+        </activity>
+        <activity
+            android:name=".UsusBUntuActivity"
+            android:label="@string/title_activity_usus_buntu" >
+        </activity>
+    </application>
+
+</manifest>

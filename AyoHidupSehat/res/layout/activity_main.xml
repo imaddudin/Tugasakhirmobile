@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:background="#71ed66"
+    android:orientation="vertical"
+    tools:context="com.Sehat.ayohidupsehat.MainActivity" >
+
+    <ImageView
+        android:id="@+id/img_home"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="37dp"
+        android:layout_weight="6"
+        android:adjustViewBounds="true"
+        android:baselineAlignBottom="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/logo" />
+
+    <Button
+        android:id="@+id/tips"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Tips"
+        android:text="Tips Hidup Sehat" />
+
+    <Button
+        android:id="@+id/manfaat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="manfaat"
+        android:text="Manfaat Hidup Sehat" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="l"
+        android:text="Jenis Penyakit" />
+
+</LinearLayout>
